@@ -1,0 +1,15 @@
+{
+  "name": "chrome-extension",
+  "version": "1.0.0",
+  "description": "Udemy project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Fraser",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chrome": "0.0.123",
+    "types": "^0.1.1"
+  }
+}

@@ -1,0 +1,36 @@
+{
+
+    "name": "Access",
+    "version": "1.0.0",
+    "description": "Web based assessability",
+    "author": "Ian Fraser",
+    "manifest_version": 2,
+    "background": {
+        "scripts": 
+        [
+            "Assets/JavaScript/background.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": 
+            [
+                "content.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab", "tabs"
+    ],
+    "browser_action": {
+        "default_title": "Access",
+        "default_popup": "access.html"
+    }
+    
+}
