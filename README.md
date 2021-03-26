@@ -14,3 +14,5 @@ In development - 22/02/2021
  6. Button size - alters buttons sizes making clicking easier
  7. Addition of Alexia support to allow blind users to command features on off
  8. User account to select specific feature allowing people to tailor sites to their needs.
+
+![logo2](https://user-images.githubusercontent.com/22151859/112667135-ccd76f80-8e54-11eb-9bc6-8778bb191411.png)
